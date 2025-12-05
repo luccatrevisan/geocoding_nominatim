@@ -11,9 +11,9 @@ Digite um endereço quando solicitado e receba as coordenadas.
 
 ### Exemplo
 ```
-Endereço: Rua Mario Vianna 265, Santa Rosa, Niteroi
-Latitude: -22.9026899
-Longitude: -43.0978938
+Endereço: Copacabana, Rio de Janeiro, Brasil
+Latitude: -22.9719740
+Longitude: -43.1842997
 ```
 
 ## O que é Nominatim?

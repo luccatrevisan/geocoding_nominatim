@@ -1,11 +1,3 @@
-"""
-melhorias:
-- deixar a busca mais específica.
-    - a api permite uma busca mais detalhada do endereço com parâmetros diversos
-- o que pode acontecer se for digitado um endereço errado?
-    - faço um loop?
-    - try/except?
-"""
 import urllib.request, urllib.parse, urllib.error
 import json
 
