@@ -1,30 +1,26 @@
-# Geocoding com Nominatim
+# Geocoding with Nominatim
 
-Converte endereços em coordenadas (latitude/longitude) usando a API Nominatim (OpenStreetMap).
+Convert addresses to geographic coordinates (latitude/longitude) using the Nominatim API (OpenStreetMap).
 
-## Como usar
+## How to Use
 ```bash
 python geocoding.py
 ```
 
-Digite um endereço quando solicitado e receba as coordenadas.
+Enter an address when prompted and receive the coordinates.
 
-### Exemplo
+### Example
 ```
-Endereço: Copacabana, Rio de Janeiro, Brasil
+Address: Copacabana, Rio de Janeiro, Brazil
 Latitude: -22.9719740
 Longitude: -43.1842997
 ```
 
-## O que é Nominatim?
+## What is Nominatim?
+Free geocoding API from OpenStreetMap. No API key required.
+Documentation: https://nominatim.org/release-docs/latest/api/Search/
 
-API gratuita do OpenStreetMap para geocoding. Sem API key necessária.
-
-Documentação: https://nominatim.org/release-docs/latest/api/Search/
-
-## Versões
-
-- **v0.1.0**: Versão básica funcional
-- **v0.2.0**: Adicionado try/except para validação
-- **v0.3.0**: Suporte a parâmetros estruturados
-```
+## Versions
+- **v0.1.0**: Basic functional version
+- **v0.2.0**: Added try/except for validation
+- **v0.3.0**: Support for structured query parameters
